@@ -1,6 +1,7 @@
 const contactNav = document.getElementById('contact-nav');
 const contactMd = document.getElementById('contact-md');
 const contactLg = document.getElementById('contact-lg');
+const inicioBtn = document.getElementById('inicio-btn');
 const aboutNav = document.getElementById('about-nav');
 const aboutMd = document.getElementById('about-md');
 const aboutLg = document.getElementById('about-lg');
@@ -62,4 +63,12 @@ obrasNav.addEventListener("click", () => {
         left: 0,
         behavior: 'smooth'
     });
+});
+
+inicioBtn.addEventListener("click", () => {
+    window.scrollTo({
+        top: 0,
+        left: 0,
+        behavior: 'smooth'
+    })
 });
