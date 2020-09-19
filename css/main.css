@@ -5,6 +5,10 @@
     overflow-x: hidden;
 }
 
+body {
+    background-color: lightgray;
+}
+
 .bg1 {
     position: relative;
     background-image: url(../assets/images/index_bg.png);
