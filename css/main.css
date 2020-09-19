@@ -17,9 +17,17 @@
 
 .bg2 {
     position: relative;
-    background-image: url(../assets/images/index_bg2.svg);
-    background-color: #f7e7d9;;
+    /*background-image: url(../assets/images/index_bg2.svg);*/
+    background-color: #FFFFFF;
     background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.bg3 {
+    position: relative;
+    background-image: url(../assets/images/index_bg3.svg);
+    background-color: #f7e7d9;;
+    background-repeat: repeat;
     background-size: cover;
     height: 100vh;
     width: 100vw;
