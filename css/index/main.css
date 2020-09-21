@@ -11,7 +11,7 @@ body {
 
 .bg1 {
     position: relative;
-    background-image: url(../assets/images/index_bg.png);
+    background-image: url(../../assets/images/index_bg.png);
     background-repeat: no-repeat;
     background-color: black;
     background-size: cover;
@@ -21,7 +21,7 @@ body {
 
 .bg2 {
     position: relative;
-    background-image: url(../assets/images/index_bg2.svg);
+    background-image: url(../../assets/images/index_bg2.svg);
     background-color: whitesmoke;
     background-repeat: repeat;
     background-size: cover;
@@ -29,7 +29,7 @@ body {
 
 .bg3 {
     position: relative;
-    background-image: url(../assets/images/index_bg3.svg);
+    background-image: url(../../assets/images/index_bg3.svg);
     background-color: #f7e7d9;;
     background-repeat: repeat;
     background-size: cover;
@@ -58,5 +58,15 @@ body {
 @media only screen and (min-width: 768px) {
     .title {
         padding-top: 15vh;
+    }
+}
+
+.tipo-img {
+    height: 200px;
+}
+
+@media only screen and (min-width: 1920px) {
+    .tipo-img {
+        height: 400px;
     }
 }

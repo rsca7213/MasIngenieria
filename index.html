@@ -21,14 +21,15 @@
     <script defer src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script defer src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/index/main.css">
     <script defer src="js/index/main.js"> </script>
 </head>
 <body>
     <div class="container-fluid m-0 p-0 bg1">
         <nav class="navbar navbar-expand-md navbar-dark">
             <a class="navbar-brand" href="index.html">
-                <img src="assets/logoHorizontal.png" alt="logo" width="200">
+                <img src="assets/logoHorizontal.png" alt="logo" width="200" class="d-none d-sm-block">
+                <img src="assets/logoHorizontal.png" alt="logo" width="170" class="d-block d-sm-none">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navContent" aria-controls="navContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -37,7 +38,7 @@
                 <b class="ml-auto mr-1">
                     <ul class="navbar-nav align-items-center">
                         <li class="nav-item">
-                            <a class="nav-link text-white nav-item-active" href="#"> <span class="text-info"> Inicio </span> </a>
+                            <a class="nav-link text-white nav-item-active" href="index.html"> <span class="text-info"> Inicio </span> </a>
                         </li>
                         <span class="d-none d-md-block text-white"> | </span>
                         <li class="nav-item" id="obras-nav">
@@ -195,7 +196,7 @@
         <div class="row d-flex justify-content-center text-info mt-4">
             <div class="col-10 col-md-5 col-lg-3 m-4 p-0 shadow">
                 <div class="card text-dark">
-                    <img class="card-img-top" src="assets/images/cards/c1.jpg" height="200">
+                    <img class="card-img-top tipo-img" src="assets/images/cards/c1.jpg">
                     <div class="card-body" style="background-color: F7F7F7;">
                         <h5 class="card-title text-info text-center">Remodelaciones</h5>
                         <p class="card-text">
@@ -203,7 +204,7 @@
                             incididunt ut labore et dolore magna aliqua.
                         </p>
                         <div class="text-center">
-                            <a href="#" class="btn btn-info text-white">
+                            <a href="obras/remodelaciones.html" class="btn btn-info text-white">
                                 <img src="assets/icons/images.svg" width="28">
                                 <span class="align-middle" style="font-weight: 500;"> Ver mas </span>
                             </a>
@@ -213,7 +214,7 @@
             </div>
             <div class="col-10 col-md-5 col-lg-3 m-4 p-0 shadow">
                 <div class="card text-dark">
-                    <img class="card-img-top" src="assets/images/cards/c2.jpg" height="200">
+                    <img class="card-img-top tipo-img" src="assets/images/cards/c2.jpg">
                     <div class="card-body" style="background-color: F7F7F7;">
                         <h5 class="card-title text-info text-center">Herrería</h5>
                         <p class="card-text">
@@ -221,7 +222,7 @@
                             incididunt ut labore et dolore magna aliqua.
                         </p>
                         <div class="text-center">
-                            <a href="#" class="btn btn-info text-white">
+                            <a href="obras/herreria.html" class="btn btn-info text-white">
                                 <img src="assets/icons/images.svg" width="28">
                                 <span class="align-middle" style="font-weight: 500;"> Ver mas </span>
                             </a>
@@ -231,7 +232,7 @@
             </div>
             <div class="col-10 col-md-5 col-lg-3 m-4 p-0 shadow">
                 <div class="card text-dark">
-                    <img class="card-img-top" src="assets/images/cards/c3.jpg" height="200">
+                    <img class="card-img-top tipo-img" src="assets/images/cards/c3.jpg">
                     <div class="card-body" style="background-color: F7F7F7;">
                         <h5 class="card-title text-info text-center">Electricidad</h5>
                         <p class="card-text">
@@ -239,7 +240,7 @@
                             incididunt ut labore et dolore magna aliqua.
                         </p>
                         <div class="text-center">
-                            <a href="#" class="btn btn-info text-white">
+                            <a href="obras/electricidad.html" class="btn btn-info text-white">
                                 <img src="assets/icons/images.svg" width="28">
                                 <span class="align-middle" style="font-weight: 500;"> Ver mas </span>
                             </a>
@@ -249,7 +250,7 @@
             </div>
             <div class="col-10 col-md-5 col-lg-3 m-4 p-0 shadow">
                 <div class="card text-dark">
-                    <img class="card-img-top" src="assets/images/cards/c4.jpg" height="200">
+                    <img class="card-img-top tipo-img" src="assets/images/cards/c4.jpg">
                     <div class="card-body" style="background-color: F7F7F7;">
                         <h5 class="card-title text-info text-center">Movimientos de tierra</h5>
                         <p class="card-text">
@@ -257,7 +258,7 @@
                             incididunt ut labore et dolore magna aliqua.
                         </p>
                         <div class="text-center">
-                            <a href="#" class="btn btn-info text-white">
+                            <a href="obras/tierra.html" class="btn btn-info text-white">
                                 <img src="assets/icons/images.svg" width="28">
                                 <span class="align-middle" style="font-weight: 500;"> Ver mas </span>
                             </a>
@@ -267,7 +268,7 @@
             </div>
             <div class="col-10 col-md-5 col-lg-3 m-4 p-0 shadow">
                 <div class="card text-dark">
-                    <img class="card-img-top" src="assets/images/cards/c5.jpg" height="200">
+                    <img class="card-img-top tipo-img" src="assets/images/cards/c5.jpg">
                     <div class="card-body" style="background-color: F7F7F7;">
                         <h5 class="card-title text-info text-center">Vías</h5>
                         <p class="card-text">
@@ -275,7 +276,7 @@
                             incididunt ut labore et dolore magna aliqua.
                         </p>
                         <div class="text-center">
-                            <a href="#" class="btn btn-info text-white">
+                            <a href="obras/vias.html" class="btn btn-info text-white">
                                 <img src="assets/icons/images.svg" width="28">
                                 <span class="align-middle" style="font-weight: 500;"> Ver mas </span>
                             </a>
@@ -285,7 +286,7 @@
             </div>
             <div class="col-10 col-md-5 col-lg-3 m-4 p-0 shadow">
                 <div class="card text-dark">
-                    <img class="card-img-top" src="assets/images/cards/c6.jpg" height="200">
+                    <img class="card-img-top tipo-img" src="assets/images/cards/c6.jpg">
                     <div class="card-body" style="background-color: F7F7F7;">
                         <h5 class="card-title text-info text-center">Plomería</h5>
                         <p class="card-text">
@@ -293,7 +294,7 @@
                             incididunt ut labore et dolore magna aliqua.
                         </p>
                         <div class="text-center">
-                            <a href="#" class="btn btn-info text-white">
+                            <a href="obras/plomeria.html" class="btn btn-info text-white">
                                 <img src="assets/icons/images.svg" width="28">
                                 <span class="align-middle" style="font-weight: 500;"> Ver mas </span>
                             </a>
