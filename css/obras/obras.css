@@ -48,3 +48,7 @@ nav {
 .nav-btn-sm {
     width: 200px;
 }
+
+.page-title {
+    text-shadow: 2px 2px #F7E7D9;
+}

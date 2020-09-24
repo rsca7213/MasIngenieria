@@ -23,7 +23,7 @@ body {
     position: relative;
     background-image: url(../../assets/images/index_bg2.svg);
     background-color: whitesmoke;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
@@ -69,4 +69,8 @@ body {
     .tipo-img {
         height: 400px;
     }
+}
+
+.page-title {
+    text-shadow: 2px 2px #f7e7d9;
 }
