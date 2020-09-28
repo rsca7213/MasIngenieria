@@ -52,3 +52,15 @@ nav {
 .page-title {
     text-shadow: 2px 2px #F7E7D9;
 }
+
+body::-webkit-scrollbar {
+    width: 0.4rem;
+}
+  
+body::-webkit-scrollbar-track {
+    background: #909090;
+}
+  
+body::-webkit-scrollbar-thumb {
+    background: #404040;
+}
